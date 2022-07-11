@@ -20,8 +20,9 @@
   </head>
   <body>
     <!-- Header section -->
-    <header class="header">
-      <nav class="header-nav">
+  <header class="page-header">
+    <div class="container flex-nav">
+      <nav class="nav flex-nav">
         <a href="/" class="logo-link link" lang="en">Web<span class="logo-accent">Studio</span></a>
 
         <ul class="header-list list">
@@ -45,13 +46,15 @@
           <a class="contacts-link link" href="tel:+380961111111">+38 096 111 11 11</a>
         </li>
       </ul>
-    </header>
+      </div>
+      </header>
 
     <!-- Main section -->
     <main>
       <!-- Portfolio section -->
       <section class="portfolio">
-        <h2 class="section-title" hidden>Портфолио</h2>
+        <div class="container">
+        <h2 class="visually-hidden">Портфолио</h2>
         <ul class="work-btn-list list">
           <li><button class="btn btn-mode-light btn-item" type="button">Все</button></li>
           <li><button class="btn btn-mode-light btn-item" type="button">Веб-сайты</button></li>
@@ -59,7 +62,8 @@
           <li><button class="btn btn-mode-light btn-item" type="button">Дизайн</button></li>
           <li><button class="btn btn-mode-light btn-item" type="button">Маркетинг</button></li>
         </ul>
-
+        </div>
+<div class="container">
         <ul class="portfolio-list list">
           <li class="portfolio-item">
             <a class="portfolio-link" href="">
@@ -73,6 +77,7 @@
               <p class="portfolio-desc">Веб-сайт</p>
             </a>
           </li>
+
 
           <li class="portfolio-item">
             <a class="portfolio-link" href="">
@@ -178,6 +183,7 @@
             </a>
           </li>
         </ul>
+        </div>
       </section>
     </main>
 
@@ -186,7 +192,7 @@
       <section class="contacts">
         <div class="contacts-group">
           <a href="/" class="logo-link link" lang="en">Web<span class="logo-link">Studio</span></a>
-          <h2 class="section-title" hidden>Контакты</h2>
+          <h2 class="visually-hidden">Контакты</h2>
           <address class="contacts-address">
             <ul class="contacts-list list">
               <li class="contacts-item">
