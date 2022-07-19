@@ -64,7 +64,6 @@ p {
   display: block;
 }
 
-
 .link {
   text-decoration: none;
   color: currentColor;
@@ -340,11 +339,6 @@ p {
 
 .portfolio-link {
   text-decoration: none;
-}
-
-.portfolio {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 /* команда  */
