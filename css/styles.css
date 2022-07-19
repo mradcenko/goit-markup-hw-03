@@ -64,6 +64,7 @@ p {
   display: block;
 }
 
+
 .link {
   text-decoration: none;
   color: currentColor;
@@ -210,8 +211,6 @@ p {
   color: var(--btn-txt-cl);
   text-align: center;
 }
-
-
 
 /* задний фон гл надписи */
 .hero {
@@ -424,7 +423,6 @@ p {
 .contacts-item {
   display: block;
   margin-right: 50px;
-  margin-bottom: 9px;
 }
 
 .contacts-item.inf {
